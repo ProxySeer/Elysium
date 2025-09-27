@@ -30,13 +30,6 @@ This approach makes it possible to manage your data securely, efficiently, and w
 
 📂 Architecture Diagram
 
-🎥 Demo Video
+![Elysium Diagram](ElysiumDiagram.png)
 
-You can see Elysium in action on YouTube:
-👉 Elysium Demo
 
-🔗 Links
-
-GitHub Repository: Elysium
-
-LinkedIn Post: More details on LinkedIn
