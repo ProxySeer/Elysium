@@ -25,3 +25,6 @@ This makes it possible to manage your data securely, efficiently, and with built
 
 
 Below you can see the overall Elysium architecture diagram 
+
+
+https://github.com/ProxySeer/Elysium/blob/main/ElysiumDiagram.png
