@@ -22,4 +22,4 @@ Replica Logger → records all file operations
 Replica Applier → applies logs and checkpoints when the container is opened, keeping replicas automatically in sync
 
 This makes it possible to manage your data securely, efficiently, and with built-in redundancy.
-
+Below you can see the overall Elysium architecture diagram 
