@@ -1,8 +1,9 @@
-Elysium is a project I’ve been developing in my free time.
+Elysium
 
+Elysium is a project I’ve been developing in my free time.
 It is a container-based embedded filesystem designed to securely store and manage your files.
 
-🔒 Key Features:
+🔒 Key Features
 
 Store any type of file inside a container file
 
@@ -14,17 +15,28 @@ Mount containers as a local drive on Windows
 
 Access files directly through Elysium without mounting
 
-⚙️ How it works:
-Each container file includes its own embedded filesystem. You can move it anywhere and still open it securely. Replication is powered by two processes:
+⚙️ How It Works
+
+Each container file includes its own embedded filesystem.
+You can move it anywhere and still open it securely.
+
+Replication is powered by two processes:
 
 Replica Logger → records all file operations
 
 Replica Applier → applies logs and checkpoints when the container is opened, keeping replicas automatically in sync
 
-This makes it possible to manage your data securely, efficiently, and with built-in redundancy.
+This approach makes it possible to manage your data securely, efficiently, and with built-in redundancy.
 
+📂 Architecture Diagram
 
-Below you can see the overall Elysium architecture diagram 
+🎥 Demo Video
 
+You can see Elysium in action on YouTube:
+👉 Elysium Demo
 
-https://github.com/ProxySeer/Elysium/blob/main/ElysiumDiagram.png
+🔗 Links
+
+GitHub Repository: Elysium
+
+LinkedIn Post: More details on LinkedIn
