@@ -1,49 +1,25 @@
-Elysium
+Elysium is a project I’ve been developing in my free time.
 
-A fast, Windows-native app to create encrypted vaults, mount them as a drive, and move files securely. Set a password, drag & drop, unmount—done. Your data stays encrypted at rest.
+It is a container-based embedded filesystem designed to securely store and manage your files.
 
+🔒 Key Features:
 
-✨ Features
+Store any type of file inside a container file
 
-Encrypted vaults (single file containers)
+Protect containers with passwords or encryption
 
-Mount/Unmount as a drive for seamless Explorer access
+Create replicas for additional safety (asynchronous or synchronous mode)
 
-Password-protected with strong key derivation
+Mount containers as a local drive on Windows
 
-Fast copy with progress and cancel
+Access files directly through Elysium without mounting
 
-Safety prompts before unmounting if operations may still be running
+⚙️ How it works:
+Each container file includes its own embedded filesystem. You can move it anywhere and still open it securely. Replication is powered by two processes:
 
-Vault Library: remember your vaults for one-click mount
+Replica Logger → records all file operations
 
-Portable vault files (move/copy like any file)
+Replica Applier → applies logs and checkpoints when the container is opened, keeping replicas automatically in sync
 
-No admin required for daily use (stores settings under ProgramData)
-
-
-🖥️ System Requirements
-
-Windows 10/11 (x64)
-
-.NET Desktop Runtime 6.0+ (or 8.0)
-
-Sufficient disk space for your vault(s)
-
-📦 Install
-
-Download the latest release from the Releases page.
-
-Unzip or run the installer.
-
-Launch Elysium.
-
-🧩 One-Time Driver Install (during setup)
-
-Elysium uses a small, signed filesystem driver to mount vaults as a drive.
-The installer runs this step once with admin rights.
-
-Automatic (recommended): The setup prompts for elevation and installs the driver silently.
-
-Manual (fallback): If needed, run as Administrator:
+This makes it possible to manage your data securely, efficiently, and with built-in redundancy.
 
